@@ -36,4 +36,4 @@ lastly, I do a for loop to record the score and show it at the end of the quiz. 
 
 That is all, first I am sorry for the bad english, it is not my local language.
 
-Also, almost 50% of this code is googled. I just don't memorize every syntax and properties, BUT I know how they work tho.
+Also, almost 20% of this code is googled. I just don't memorize every syntax and properties, BUT I know how they work tho.

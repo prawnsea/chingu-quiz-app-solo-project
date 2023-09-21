@@ -144,7 +144,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const nextButtonElement = document.getElementById("nextButton");
   let userAnswer = [];
 
-  // DOM updates
   function updateQuestion() {
     questionNumberElement.textContent =
       "Question " + (currentQuestionIndex + 1) + "/" + quizQuestions.length;
@@ -157,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
     choice4Element.textContent = quizQuestions[currentQuestionIndex].choices.d;
   }
   updateQuestion();
-  // adding event listeners and functions for buttons
+
   nextButtonElement.style.display = "none";
 
   function showNextButton(event) {
